@@ -14,6 +14,7 @@ body {
     border-radius: 10px;
     font-size: 22px;
     font-weight: 600;
+    border: none;
 }
 
  /************ Head Section ****************/
@@ -51,17 +52,63 @@ body {
 
 
  /************ Donate Today Section ****************/
-
+ .donate-today .head {
+    padding-top: 100px;
+    padding-bottom: 20px;
+ }
  .donate-today .head h1{
     color: black;
     font-size: 60px;
     margin-bottom: 20px;
  }
-  
+
  .donate-today .head p{
     color: black;
  }
 
- .donate-today .head {
-    padding: 100px;
+.amount {
+    margin: auto;
+    width: 60%;
+    
+}
+ .amount ul {
+    list-style: none;
+    display: flex;
  }
+ .amount ul li a{
+    text-decoration: none;
+    background-color: aliceblue ;
+    margin: 10px 20px;
+    padding: 30px 20px;
+    color: rgb(33, 54, 72);
+    font-size: 30px;
+    font-weight: bolder;
+    border-radius: 10px;
+ }
+
+.amount ul li a:hover {
+    border: 4px solid tomato;
+    color: tomato;
+    background-color: #FFEEEE;
+}
+
+.form-section {
+    text-align: center;
+    padding-top: 80px;
+ }
+
+ .form-section input[type=text] {
+    border: none;
+    border-bottom: 2px solid #e1cdcd;
+    width: 40%;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+
+  ::placeholder { 
+    color: #e1cdcd;
+    opacity: 1; 
+    text-align: center;
+    font-size: 20px;
+  }
+  
