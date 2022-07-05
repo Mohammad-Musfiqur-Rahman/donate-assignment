@@ -1,0 +1,67 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+.donate-button {
+    display: block;
+    text-decoration: none;
+    color: white;
+    background-color: #FF5959;
+    width: 12%;
+    margin: auto;
+    padding: 15px 0;
+    border-radius: 10px;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+ /************ Head Section ****************/
+
+ .header {
+    background-image: url(img/donation0.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+ }
+.overlay {
+    margin: 0;
+    padding: 0;
+    background-color: rgba(0, 0, 0, .4);
+}
+ .head {
+    padding: 200px 0;
+    text-align: center;
+ }
+
+.head h1 {
+    color: aliceblue;
+    font-size: 81px;
+    margin: 0;
+}
+
+.head p {
+    color:white;
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 20px;
+}
+
+
+ /************ Donate Today Section ****************/
+
+ .donate-today .head h1{
+    color: black;
+    font-size: 60px;
+    margin-bottom: 20px;
+ }
+  
+ .donate-today .head p{
+    color: black;
+ }
+
+ .donate-today .head {
+    padding: 100px;
+ }
