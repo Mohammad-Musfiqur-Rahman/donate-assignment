@@ -208,6 +208,7 @@ body {
  .my-updates {
     width: 40%;
     margin: auto;
+    padding-bottom: 120px;
  }
 
 .updates-form {
@@ -250,3 +251,20 @@ body {
     text-align: start;
     font-weight: 500;
   }
+
+  /************ Footer Section ****************/
+footer {
+    background-color: rgb(0, 0, 0);
+    overflow: hidden;
+    text-align: center;
+}
+footer p{
+    color: white;
+    font-size: 12px;
+}
+
+footer h2 {
+    color: #FF5959;
+    font-family: 'Lobster', cursive;
+    font-size: 35px;
+}
