@@ -157,3 +157,32 @@ body {
     box-shadow: -7px -10px 49px -1px rgba(0,0,0,0.87);
     transition: 2s;
 }
+
+
+/************ Contact Us Section ****************/
+
+.contact-us {
+    background-image: url(img/Frame58.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.contact-us h1{
+    color: black;
+    font-size: 60px;
+    padding: 45px 0;
+ }
+
+.contact-form {
+    text-align: center;
+    width: 50%;
+    margin: auto;
+ }
+
+.contact-form input, textarea {
+    display: block;
+    width: 100%;
+    margin: 5px;
+    padding: 4px;
+}
